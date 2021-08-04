@@ -1,0 +1,238 @@
+//Cases Assembled By Team Of Hero Participants
+
+case 'coala':
+team = await fetchJson (`https://api-team-of-hero.herokuapp.com/api/imagens/koala?apikey=apiteam`)
+buffer = await getBuffer(team.resultado)
+team.sendMessage(from, buffer, image, {quoted: mek, thumbnail: null})
+break
+
+case 'panda':
+team = await fetchJson (`https://api-team-of-hero.herokuapp.com/api/imagens/panda?apikey=apiteam`)
+buffer = await getBuffer(team.resultado)
+team.sendMessage(from, buffer, image, {quoted: mek, thumbnail: null})
+break
+
+case 'raposas':
+team = await fetchJson (`https://api-team-of-hero.herokuapp.com/api/imagens/shiba?apikey=apiteam`)
+buffer = await getBuffer(team.resultado)
+team.sendMessage(from, buffer, image, {quoted: mek, thumbnail: null})
+break
+
+case 'gatinhos':
+team = await fetchJson (`https://api-team-of-hero.herokuapp.com/api/imagens/gato?apikey=apiteam`)
+buffer = await getBuffer(team.resultado)
+team.sendMessage(from, buffer, image, {quoted: mek, thumbnail: null})
+break
+
+case 'cachorro':
+team = await fetchJson (`https://api-team-of-hero.herokuapp.com/api/imagens/cachorro?apikey=apiteam&tipo=dog`)
+buffer = await getBuffer(team.resultado)
+team.sendMessage(from, buffer, image, {quoted: mek, thumbnail: null})
+break
+
+
+//TEXT PRO ME
+
+case 'glitch2':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(8)
+                      teks1 = teks.split("|")[0];
+                      teks2 = teks.split("|")[1];
+                      reply('[❗]ESPERE ...')
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/glitch1?apikey=apiteam&texto1=${teks1}&texto2=${teks2}`)
+                      buff = await getBuffer(team.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'glitch':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(7)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/glitch2?apikey=apiteam&texto=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'toxic':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(6)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/toxic?apikey=apiteam&texto=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+
+case 'transformer':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(12)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/transformer?apikey=apiteam&texto=team=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+                      case 'graffiti':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(9)
+                      teks1 = teks.split("|")[0];
+                      teks2 = teks.split("|")[1];
+                      reply('[❗]ESPERE ...')
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/graffiti?apikey=apiteam&texto1=${teks1}&texto2={teks2}`)
+                      buff = await getBuffer(team.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+                      case 'blackpink':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(10)
+                      teks1 = teks.split("|")[0];
+                      teks2 = teks.split("|")[1];
+                      reply('[❗]ESPERE ...')
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/glitch1?apikey=apiteam&texto1=${teks1}&texto2=${teks2}`)
+                      buff = await getBuffer(team.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'thunderv2':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(10)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/thunderv2?apikey=apiteam&texto=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'harrypotter':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(12)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/harrypotter2?apikey=apiteam&texto=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'pornhub':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(8)
+                      teks1 = teks.split("|")[0];
+                      teks2 = teks.split("|")[1];
+                      reply('[❗]ESPERE ...')
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/pornhub?apikey=apiteam&texto1=${teks1}&texto2=${teks2}`)
+                      buff = await getBuffer(team.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'neon3d':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(7)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/neon3d?texto=${teks}&apikey=apiteam`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'horrorblood':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(12)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/horror-blood?texto=${teks}&apikey=apiteam`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'neondevil':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(10)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/neon-devil?texto=${teks}&apikey=apiteam`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'wonderfulgraffiti':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(18)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/wonderful-graffiti?apikey=apiteam&texto=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+                      case 'dropwater':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(10)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/dropwater?apikey=apiteam&texto=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+                      case 'advancedglow':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(13)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/advanced-glow?apikey=apiteam&texto=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'captainamerica':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(15)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/captain-america?apikey=apiteam&texto=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+case 'jokerlogo':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(10)
+                      reply('[❗]ESPERE ...')
+                      anu = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/jokerlogo?apikey=apiteam&texto=${teks}`)
+                      buff = await getBuffer(anu.resultado)
+                      team.sendMessage(from, buff, image, {quoted: mek})
+                      break
+                      case 'marvel':
+                      if (args.length < 1) return reply('Cadê o texto?')
+                      teks = body.slice(7)
+                      teks1 = teks.split("|")[0];
+                      teks2 = teks.split("|")[1];
+                      reply('[❗]ESPERE ...')
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/marvel?apikey=apiteam&texto1=${teks1}&texto2={teks2}`)
+                      buff = await getBuffer(team.resultado)
+                      akame.sendMessage(from, buff, image, {quoted: mek})
+                      break
+                      case 'space':
+                      team = body.slice(6)
+                      teks1 = team.split("|")[0];
+                      teks2 = team.split("|")[1];
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/space-3d?apikey=apiteam&texto1=${teks1}&texto2=${teks2}`)
+                      of = await getBuffer(team.resultado)
+                      hero = await getBuffer(`https://i.ibb.co/3h6M64p/48bb51875d47.jpg`)
+                      client.sendMessage(from, of, image, {quoted: mek, thumbnail: hero})
+                      break
+                      case 'lavatext':
+                      team = body.slice(9)
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/lava-text?apikey=apiteam&texto1=${team}`)
+                      of = await getBuffer(team.resultado)
+                      hero = await getBuffer(`https://i.ibb.co/3h6M64p/48bb51875d47.jpg`)
+                      client.sendMessage(from, of, image, {quoted: mek, thumbnail: hero})
+                      break
+                      case 'magma':
+                      team = body.slice(6)
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/magma-text?apikey=apiteam&texto=${team}`)
+                      of = await getBuffer(team.resultado)
+                      hero = await getBuffer(`https://i.ibb.co/3h6M64p/48bb51875d47.jpg`)
+                      client.sendMessage(from, of, image, {quoted: mek, thumbnail: hero})
+                      break
+                      case 'matrix':
+                      team = body.slice(7)
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/matrix-text?texto=${team}&apikey=apiteam`)
+                      of = await getBuffer(team.resultado)
+                      hero = await getBuffer(`https://i.ibb.co/3h6M64p/48bb51875d47.jpg`)
+                      client.sendMessage(from, of, image, {quoted: mek, thumbnail: hero})
+                      break
+                      case 'break-wall':
+                      team = body.slice(10)
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/break-wall?apikey=apiteam&texto=${team}`)
+                      of = await getBuffer(team.resultado)
+                      hero = await getBuffer(`https://i.ibb.co/3h6M64p/48bb51875d47.jpg`)
+                      client.sendMessage(from, of, image, {quoted: mek, thumbnail: hero})
+                      break
+                      case 'avengers':
+                      team = body.slice(10)
+                      teks1 = team.split("|")[0];
+                      teks2 = team.split("|")[1];                  
+                      team = await fetchJson(`https://api-team-of-hero.herokuapp.com/api/textpro/avengers-logo?texto1=${teks1}&texto2=${teks2}&apikey=apiteam`)
+                      of = await getBuffer(team.resultado)
+                      hero = await getBuffer(`https://i.ibb.co/3h6M64p/48bb51875d47.jpg`)
+                      client.sendMessage(from, of, image, {quoted: mek, thumbnail: hero})
+                      break
+
+                
